@@ -2,7 +2,7 @@
 const { onRequest } = require("firebase-functions/v2/https");
 const express = require("express");
 const cors = require("cors");
-const stripe = require("stripe")("sk_test_51Qr6P1GsNCQU0zeT5VACvQWvZNhLpANkA8TjRxsYCrT2gjxjp8KALnt8Lo8uDeCxbHYLO3FEd3tEabejF5sw0r1j00GysblkcQ");
+const stripe = require("stripe");
 
 // Initialize Express app
 const app = express();
