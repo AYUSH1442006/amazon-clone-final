@@ -1,0 +1,10 @@
+I0211 08:39:32.261947   32472 load.go:37] Reloading schema and connectors...
+I0211 08:39:32.288636   32472 control.go:59] [/emulator/amazon-clone 0f87] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+I0211 08:39:32.309241   32472 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Ayush kumar\\amazon-clone\\dataconnect-generated\\js\\default-connector"
+I0211 08:39:32.314470   32472 collector.go:107] schema extensions wrote into "C:\\Users\\Ayush kumar\\amazon-clone\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [65151B] 
+I0211 08:39:32.319529   32472 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Ayush kumar\\amazon-clone\\dataconnect-generated\\js\\default-connector"
+Generated sources: esm\index.esm.js [171B] esm\package.json [17B] index.cjs.js [212B] package.json [634B] README.md [2740B] index.d.ts [261B] 
+I0211 08:39:32.329483   32472 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
